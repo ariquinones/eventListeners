@@ -63,16 +63,19 @@ hr.q-divider{
 }
 
 .student-workspace button{
-  padding: 13px;
+  padding: 20px; 
   font-size: 12px;
+  border-radius: 5%; 
+  color: rgb(88,176,236);
   cursor: pointer;
   margin: 15px auto;
-  background: #f1c40f;
-  border: 1px solid #333;
+  background: white;
+  border: 1px solid rgb(88,176,236);
   font-weight: 700;
 }
 .student-workspace button:hover{
   background: #f39c12;
+  color: white; 
 }
 
 
@@ -138,7 +141,7 @@ hr.q-divider{
   text-align: left;
 }
 
-#add-guest .guest:nth-child(even) {
+#add-guest .newGuest:nth-child(even) {
   background: tomato;
 }
 
@@ -178,5 +181,5 @@ hr.q-divider{
     line-height: 20px;
     vertical-align: middle;
     margin: 0 10px;
-    background: red;
+    background: transparent;
     }
